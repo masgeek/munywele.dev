@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://mariom.dev",
     title: "mariom.dev",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-sass'],
 };
