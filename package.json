@@ -13,14 +13,20 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && echo \"mariom.dev\" > public/CNAME && cp src/favicon.ico public && gh-pages -d public",
+    "test": "cp src/favicon.ico public"
   },
   "dependencies": {
-    "bulma": "^0.9.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "gatsby": "^3.13.1",
+    "gatsby-plugin-react-helmet": "^4.14.0",
     "gatsby-plugin-sass": "^4.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "sass": "^1.42.1"
   },
   "devDependencies": {

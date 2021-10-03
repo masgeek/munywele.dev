@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://mariom.dev",
     title: "mariom.dev",
   },
-  plugins: ['gatsby-plugin-sass'],
+  plugins: ['gatsby-plugin-sass', 'gatsby-plugin-react-helmet'],
 };

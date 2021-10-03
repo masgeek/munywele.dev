@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+// --bdazzled-blue: #3d5a80ff;
+// --pale-cerulean: #98c1d9ff;
+// --light-cyan: #e0fbfcff;
+// --burnt-sienna: #ee6c4dff;
+// --gunmetal: #293241ff;
+
 html {
     --dark-blue: #293241;
     --light-blue: #e0fbfc;
@@ -13,7 +19,7 @@ body {
     background-color: white;
 }
 
-a:visited {
+a, a:visited {
     color: unset;
 }
 
@@ -61,6 +67,17 @@ footer {
     left: 0;
     right: 0;
     text-align: center;
+    font-size: 24px;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer a:hover svg {
+    color: var(--red);
+    margin-bottom: 5px;
+    margin-top: -5px;
 }
 
 .logo-wrapper {
