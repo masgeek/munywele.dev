@@ -88,6 +88,18 @@ footer a:hover svg {
     margin-top: -5px;
 }
 
+.cookiesButton {
+    background-color: var(--red);
+    border: 0;
+    font-family: unset;
+    cursor: pointer;
+    color: white;
+    padding: 7px 14px;
+    position: fixed;
+    right: 25px;
+    font-weight: bold;
+}
+
 .logo-wrapper {
     text-align: center;
     margin: 100px 0;

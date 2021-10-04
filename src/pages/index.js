@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
         <Wrapper active={this.isActive("home")}><Home /></Wrapper>
         <Wrapper active={this.isActive("contact")}><Contact /></Wrapper>
       </main>,
-      <Footer />
+      <Footer key="footer" />
     ]
   }
 }
