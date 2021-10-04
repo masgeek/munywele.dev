@@ -58,6 +58,14 @@ main {
     margin: 0px auto;
 }
 
+main .contentWrapper {
+    display: none;
+}
+
+main .activePage {
+    display: block;
+}
+
 footer {
     position: fixed;
     bottom: 0;
