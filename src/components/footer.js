@@ -1,11 +1,12 @@
 import * as React from "react";
 
 import {config} from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
+
+config.autoAddCss = false;
+
 
 function Footer(props) {
   return (
@@ -15,6 +16,8 @@ function Footer(props) {
         href="https://github.com/mariomantilla"
         target="_blank"
         rel="noreferrer"
+        className="tooltipped"
+        data-tooltip="Github"
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>
@@ -23,6 +26,8 @@ function Footer(props) {
         href="https://www.linkedin.com/in/mariomantilla/"
         target="_blank"
         rel="noreferrer"
+        className="tooltipped"
+        data-tooltip="LinkedIn"
       >
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
@@ -31,6 +36,8 @@ function Footer(props) {
         href="mailto:mariomantillasanchez@gmail.com"
         target="_blank"
         rel="noreferrer"
+        className="tooltipped"
+        data-tooltip="Drop me an email"
       >
         <FontAwesomeIcon icon={faAt} />
       </a>
