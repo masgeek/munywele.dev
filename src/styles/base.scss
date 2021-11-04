@@ -14,6 +14,8 @@ html {
   --dark-blue: #293241;
   --light-blue: #e0fbfc;
   --red: #ee6c4d;
+  --tred: #ee6c4d11;
+  --tred2: #ee6c4d22;
   // --blue: #98fc1d9;
   --blue: #3d5a80ff;
 }
@@ -40,6 +42,15 @@ a:visited {
   }
   to {
     background-size: 100%;
+  }
+}
+
+@keyframes buttonhover {
+  from {
+    top: 0;
+  }
+  to {
+    top: -3px;
   }
 }
 
@@ -167,8 +178,8 @@ mark {
   background-image: linear-gradient(
     to top,
     var(--red),
-    var(--red) 50%,
-    transparent 51%
+    var(--red) 65%,
+    transparent 66%
   );
   margin: 0 -0.1em;
   padding: 0 0.1em;
@@ -180,6 +191,30 @@ mark {
   top: 50%;
   left: 50%;
 }
+
+a.button {
+  border: 2px solid var(--red);
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: var(--tred);
+  font-weight: bold;
+  color: var(--red);
+  margin: 0 5px;
+}
+
+a.button:hover {
+  background-color: var(--tred2);
+  animation-name: buttonhover;
+  animation-duration: 0.3s;
+  position: relative;
+  top: -3px;
+}
+
+.ped p {
+  margin: 25px 0 30px 0;
+}
+
 
 .columns {
   overflow: hidden;

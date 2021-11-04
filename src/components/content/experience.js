@@ -1,6 +1,8 @@
 import React from "react";
 
 import logoSolaris from "/src/images/logosolaris.png"
+import logo from "/src/images/logo150.png"
+import logob4b from "/src/images/logob4b.jpg"
 
 
 function Experience(props) {
@@ -33,12 +35,12 @@ function Experience(props) {
         </p>
       </div>
       <div className="c4 center">
-        <img src={logoSolaris} alt="Solaris Offgrid's logo" className="pImage" />
+        <img src={logob4b} alt="Solaris Offgrid's logo" className="pImage" />
       </div>
     </div>
     <div className="columns">
       <div className="c4 center">
-      <img src={logoSolaris} alt="Solaris Offgrid's logo" className="pImage" />
+      <img src={logo} alt="Solaris Offgrid's logo" className="pImage" />
       </div>
       <div className="c8">
         <h1>Freelance Web Developer</h1>
