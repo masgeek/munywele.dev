@@ -1,6 +1,6 @@
 import React from "react";
 
-import marioPic from "/src/images/mario.jpg"
+import marioPic from "/src/images/mario512.jpg"
 
 
 function About(props) {
@@ -8,7 +8,7 @@ function About(props) {
     <h1 className="pageTitle">About me</h1>
     <div className="columns">
       <div className="c4 center">
-        <img src={marioPic} width="300" alt="Mario's pic" className="leftPic" />
+        <img src={marioPic} alt="Mario's pic" className="leftPic" />
       </div>
       <div className="c8 bigText">
         <p>
