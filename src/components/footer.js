@@ -48,7 +48,7 @@ function Footer(props) {
         rel="noreferrer"
         className="tooltipped"
         data-tooltip="Send a tip to support my work">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: "30px", marginBottom: "-6px"}} />
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{width: "109px", marginBottom: "-6px"}} />
       </a>
     </footer>
   );
