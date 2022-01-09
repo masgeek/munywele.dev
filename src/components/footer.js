@@ -41,6 +41,15 @@ function Footer(props) {
       >
         <FontAwesomeIcon icon={faAt} />
       </a>
+
+      <a 
+        href="https://www.buymeacoffee.com/mariomantilla"
+        target="_blank"
+        rel="noreferrer"
+        className="tooltipped"
+        data-tooltip="Send a tip to support my work">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: "30px", marginBottom: "-6px"}} />
+      </a>
     </footer>
   );
 }
