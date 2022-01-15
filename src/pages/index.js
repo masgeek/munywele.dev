@@ -22,6 +22,7 @@ class IndexPage extends React.Component {
       includeURLFragment: true,
       autoTrack: true
     });
+    Panelbear.trackPageview();
   }
 
   goToPage(page) {
