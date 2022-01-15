@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
     Panelbear.load(PANELBEAR_SITE_ID);
     Panelbear.config({
       spaMode: "history",
-      debug: true,
+      debug: false,
       includeURLFragment: true,
       autoTrack: true
     });
