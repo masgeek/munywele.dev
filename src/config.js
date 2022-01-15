@@ -20,5 +20,6 @@ module.exports = {
       key: "contact",
       name: "Contact"
     }
-  ]
+  ],
+  PANELBEAR_SITE_ID: "40LjMBcqVv6"
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import * as Panelbear from "@panelbear/panelbear-js";
 
 import logo from "/src/images/logo150.png"
 
@@ -16,7 +17,13 @@ function Home(props) {
             <p>
                 Check out my last project
             </p><p>
-                <a href="https://honestore.app/" className="button">Honestore</a>
+                <a
+                    href="https://honestore.app/"
+                    className="button"
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={() => Panelbear.track("externalLink.honestore")}
+                >Honestore</a>
             </p>
             </div>
         </div>

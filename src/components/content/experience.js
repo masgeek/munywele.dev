@@ -46,7 +46,7 @@ function Experience(props) {
         <h1>Freelance Web Developer</h1>
         <p>
         Developed own Content Management System based on PHP/MySQL/HTML/JavaScript for businesses.
-        Experiences in using frameworks such as Symphony and jQuery and integrating APIs from external
+        Experiences in using frameworks such as Symfony and jQuery and integrating APIs from external
         services like Facebook, Google OAuth, Text2Speech, etc.
         </p>
       </div>

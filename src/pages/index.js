@@ -1,8 +1,9 @@
 import * as React from "react"
+import * as Panelbear from "@panelbear/panelbear-js";
 import { Navigation, Meta, Footer, Wrapper } from "/src/components/"
 import { Home, About, Experience, Projects, Contact } from "/src/components/content"
 import "/src/styles/base.scss"
-import { pages } from "/src/config"
+import { pages, PANELBEAR_SITE_ID } from "/src/config"
 
 class IndexPage extends React.Component {
 
@@ -11,6 +12,13 @@ class IndexPage extends React.Component {
     this.state = {
       currentPage: 'home'
     }
+    Panelbear.load(PANELBEAR_SITE_ID);
+    Panelbear.config({
+      spaMode: "history",
+      debug: true,
+      includeURLFragment: true,
+      autoTrack: true
+    });
   }
 
   goToPage(page) {
