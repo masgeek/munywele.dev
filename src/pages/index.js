@@ -12,6 +12,9 @@ class IndexPage extends React.Component {
     this.state = {
       currentPage: 'home'
     }
+  }
+
+  componentDidMount() {
     Panelbear.load(PANELBEAR_SITE_ID);
     Panelbear.config({
       spaMode: "history",
