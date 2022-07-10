@@ -1,6 +1,6 @@
 import React from "react";
 
-import marioPic from "/src/images/mario512.jpg"
+import marioPic from "/src/images/mario512_2.jpg"
 
 
 function About(props) {
